@@ -53,17 +53,17 @@
 
 
 ### 이진트리의 분류
-!![포화이진](https://user-images.githubusercontent.com/66079439/182036861-34752989-cf75-44d2-aabf-56633823d5c9.jpeg)
-[균형이진](https://user-images.githubusercontent.com/66079439/182036852-a17d600e-0f58-4244-9cfc-f9a8e9ff01a2.jpeg)
+![포화이진](https://user-images.githubusercontent.com/66079439/182036861-34752989-cf75-44d2-aabf-56633823d5c9.jpeg)
+![균형이진](https://user-images.githubusercontent.com/66079439/182036852-a17d600e-0f58-4244-9cfc-f9a8e9ff01a2.jpeg)
 ![변질이진](https://user-images.githubusercontent.com/66079439/182036857-28535907-df9f-4848-8e20-9df76b0bb581.jpeg)
 ![완전이진](https://user-images.githubusercontent.com/66079439/182036858-149e781d-71ee-4910-bfd6-8b48cbc6ffcd.jpeg)
 ![정이진](https://user-images.githubusercontent.com/66079439/182036859-13fd8422-bf89-4b17-9bfb-ae65710c5c96.jpeg)
 
-정이진 트리(Full Binary Tree): 자식 노드가 0 또는 두 개인 이진 트리를 의미한다.
-완전 이진 트리(Complete Binary Tree): 왼쪽에서부터 채워져 있는 이진 트리를 의미한다. 마지막 레벨을 제외하고는 모든 레벨이 완전히 채워져 있으며, 마지막 레벨의 경우 왼쪽부터 채워져있다.
-변질 이진 트리(Degenerate Binary Tree): 자식 노드가 하나밖에 없는 이진 트리를 의미한다.
-포화 이진 트리(Perfect Binary Tree): 모든 노드가 꽉 차 있는 이진 트리를 의미한다.
-균형 이진 트리(Balanced Binary Tree): 왼쪽과 오른쪽 노드의 높이 차이가 1 이하인 이진 트리를 의미한다. map, set을 구성하는 레드 블랙 트리는 균형 이진 트리중 하나이다.
+  - 정이진 트리(Full Binary Tree): 자식 노드가 0 또는 두 개인 이진 트리를 의미한다.
+  - 완전 이진 트리(Complete Binary Tree): 왼쪽에서부터 채워져 있는 이진 트리를 의미한다. 마지막 레벨을 제외하고는 모든 레벨이 완전히 채워져 있으며, 마지막 레벨의 경우 왼쪽부터 채워져있다.
+  - 변질 이진 트리(Degenerate Binary Tree): 자식 노드가 하나밖에 없는 이진 트리를 의미한다.
+  - 포화 이진 트리(Perfect Binary Tree): 모든 노드가 꽉 차 있는 이진 트리를 의미한다.
+  - 균형 이진 트리(Balanced Binary Tree): 왼쪽과 오른쪽 노드의 높이 차이가 1 이하인 이진 트리를 의미한다. map, set을 구성하는 레드 블랙 트리는 균형 이진 트리중 하나이다.
 
 ### 이진 탐색 트리
 
