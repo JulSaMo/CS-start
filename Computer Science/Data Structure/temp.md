@@ -72,11 +72,12 @@
 보통 요소를 찾을 때 이진 탐색 트리의 경우 O(logn)이 걸린다. 하지만 최악의 경우 O(n)이 걸린다.
 그 이유는 이진 탐색 트리는 삽입 순서에 따라 선형적일 수 있기 때문이다.
 
-+) 예시 추가
-+) 코드 
++) 예시 추가 <\n>
++) 코드 <\n>
++) 트리 순회 방식 (inorder...)
 
 ## < Reference >
 
-트리 이미지: https://en.wikipedia.org/wiki/Tree_%28data_structure%29
-그래프와 트리의 차이: https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html
+  - 트리 이미지: https://en.wikipedia.org/wiki/Tree_%28data_structure%29
+  - 그래프와 트리의 차이: https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html
 
