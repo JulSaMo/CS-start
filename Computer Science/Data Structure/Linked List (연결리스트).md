@@ -1,4 +1,4 @@
-본 글은 '생활코딩 linked list (1), (2), (3)'을 보고 작성하였습니다.
+본 글은 '생활코딩 linked list (1), (2), (3)'과 '소들이 블로그' 보고 작성하였습니다.
 
 # 🟣 Linked List (연결 리스트)
 Linked List 는 array List와는 다르게 element와 element간의 연결(link)를 이용해서 리스트를 구현하는 것을 의미한다. 
