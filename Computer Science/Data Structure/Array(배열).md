@@ -227,4 +227,6 @@ func rotate(_ arr: [Int], _ n: Int) {
 이 알고리즘을 그대로 가져다가 쓰면, 우리가 원하는 ```[3, 4, 5, 1, 2]``` 가 출력될 것이다!
 
 
+## 📝 Reference
+[회전 알고리즘 참고](https://shoark7.github.io/programming/algorithm/5-ways-to-rotate-array)
 
