@@ -1,7 +1,8 @@
 # Btree
 
 B-trees are similar to binary search trees in many ways, but they have two big differences: 
-the number of children per node is not limited to two and the number of keys in the node is also variable (not just 1).
+   - the number of children per node is not limited to two
+   - the number of keys in the node is also variable (not just 1).
 
 B-trees are self-balanced, rooted, sorted trees. They allow operations such as insert, search, deletion, and access in logarithmic time.
 
