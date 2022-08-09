@@ -18,7 +18,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 | CPU 내부 버스                                  | - ALU와 레지스터들 간의 데이터 이동을 위한 데이터, 주소 선들. 제어 장치로 부터 발생되는 제어 신호를 전송하는 선들로 구성 |
 
 
-
+<br/>
 #### 🧡 특수 목적 레지스터 중 중요한 것들  
 
 | 구분                           | 내용                                                         |
@@ -30,15 +30,15 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 | **프로그램 카운터(PC)**        | 다음에 수행할 명령어의 주소를 저장                           |
 | **누산기 (AC)**                | 연산 결과를 임시로 저장                                      |
 
-
+<br/>
 
 <hr/>
-
+<br/>
 
 
 # ❤️ CPU 동작과정
 
-![image-20220807192345784](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220807192345784.png)
+<img width="948" alt="image" src="https://user-images.githubusercontent.com/103012104/183633980-de00b26d-fef6-4b22-86e7-d303ea4d2f9f.png">
 
 | 순서 | 장치                | 하는 일                                                      |
 | ---- | ------------------- | ------------------------------------------------------------ |
@@ -50,10 +50,10 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 | -    | **제어장치**        | 제어장치는 전 과정에서 명령어가 순서대로 실행되도록 각 장치를 제어 |
 
 
-
+<br/>
 #### 2번의 제어장치의 동작과정
 
-![image-20220807194328716](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220807194328716.png)
+<img width="948" alt="image" src="https://user-images.githubusercontent.com/103012104/183634060-5bbe56b7-d803-46be-a220-a07c53e4ffcc.png">
 
 | 순서 | 장치                   | 하는 일                                                      |
 | ---- | ---------------------- | ------------------------------------------------------------ |
@@ -64,15 +64,15 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 | 5    | **연산장치(ALU)**      | 4번에서 받은 연산을 할건데, <br/>연산에 필요한 데이터는 2번의 "기억장치 주소 레시스터"를 넘겨, 주기억창치로 넘어간 데이터가 이때 여기로 넘어와 연산된다. |
 
 
-
+<br/>
 #### CPU의 동작과정
 
-![image-20220807200120370](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220807200120370.png)
+<img width="939" alt="image" src="https://user-images.githubusercontent.com/103012104/183634101-6cfc7481-fd5f-414a-b98e-90b73d8db696.png">
 
 
-
+<br/>
 <hr/>
-
+<br/>
 
 
 # 명령어 세트(instruction Set)
@@ -89,7 +89,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
   | 피연산자<br/>(Operand)         | 연산을 수행하는데 필요한 필요한 데이터 or 데이터 주소를 나타냄 /  <br/>주소, 숫자/문자, 논리 데이터 등을 저장 |
 
 
-
+<br/>
 #### 명령어 포맷
 
 ![img](https://velog.velcdn.com/images%2Fckstn0777%2Fpost%2Fd87e12c6-d26e-4e45-8dfb-edd5ec89fc57%2Fimage.png)
@@ -98,11 +98,16 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 - Opcode(명령코드)는 기계어의 일부이며 수행할 명령어를 나타내는 부호를 말합니다.
   - 이에 대한 규격과 형식은 CPU 명령어 집합에 나와 있습니다. 
   - 여기서는 아래와 같이 Opcode가 존재한다고 한다고해보겠습니다.
+  - Operand는 하나 이상의 지정자를 가집니다. 일부 연산에 대하서는 연산 자체가 묵시적으로 피연산자를 갖고 있는 경우도 있고, 피연산자를 아예 갖지 않는 연산도 있습니다.
 
-![image-20220808214205304](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220808214205304.png)
+  > 결론적으로 Opcode(명령코드)도 컴퓨터마다 다르고, 명령어 포맷도 컴퓨터마다 다름. (아래는 예시일뿐)
+
+<img width="718" alt="image" src="https://user-images.githubusercontent.com/103012104/183634825-56c01808-28f6-4fd5-91be-325280aaeb1a.png">
 
 
-
+<br/>
+<hr/>
+<br/>
 
 
 # ❤️CPU 명령어 사이클 (Instruction Cycle)
@@ -111,9 +116,9 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 - 명령어 사이클은 **인출 → 실행  → 간접  → 인터럽트**로 나뉨
 
-![image-20220809090417042](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220809090417042.png)
+<img width="958" alt="image" src="https://user-images.githubusercontent.com/103012104/183634887-bf499536-a60b-4465-8b1f-4fdcbacbc538.png">
 
-![image-20220809111746978](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220809111746978.png)
+<img width="953" alt="image" src="https://user-images.githubusercontent.com/103012104/183634952-37407745-9964-411e-b2cf-36c4ab7eab91.png">
 
 | 명령 사이클                                 | 내용                                                         |
 | ------------------------------------------- | ------------------------------------------------------------ |
@@ -123,15 +128,14 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 | **인터럽트 사이클 <br/>(Interrupt Cycle) ** | - 인터럽트 발생 시 인터럽트 처리를 위한 단계<br />-인터럽트에 대한 처리가 완료되면 Fetch Cycle 진행 |
 
 
-
+<br/>
 #### 기본적인 명령어 사이클 과정 (인출 사이클 + 실행 사이클)
 
 - Instruction Cycle =  인출 사이클 (Fetch Cycle) + 실행 사이클 (Execute Cycle)
   - 인출 사이클 (Fetch Cycle) : 주기억장치로부터 명령어와 데이터를 CPU로 가져오는 단계
   - 실행 사이클 (Execut Cycle) : CPU가 수행하는 단계
 - Instruction Cycle 과정
-
-![image-20220809111843302](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220809111843302.png)
+<img width="978" alt="image" src="https://user-images.githubusercontent.com/103012104/183635005-a60f4271-60ff-4204-8f02-192e6b8e271b.png">
 
 | 순서 | 구분                                     | 내용                                                         |
 | ---- | ---------------------------------------- | ------------------------------------------------------------ |
@@ -143,7 +147,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 *이후 1번부터 끊임없이 반복 수행
 
-
+<br/>
 
 ### CPU 명령어 처리 과정
 
@@ -160,7 +164,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 | 3    | **IR ← MBR**                                        | MBR에 저장된 내용을  명령어 레지스터(IR)에 전달              |
 
 
-
+<br/>
 #### 인출한 이후, 명령어를 실행하는 과정
 
 ![img](https://velog.velcdn.com/images%2Fckstn0777%2Fpost%2Fd12ce7f1-0be8-4663-a1d8-f6046f044679%2Fimage.png)
@@ -173,7 +177,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 4. 프로그램 제어: 프로그램의 실행 순서를 결정합니다. / ex) `JUMP addr`
 
 
-
+<br/>
 ##### 3번 ADD addr의 명령어 연산
 
 ```
