@@ -93,6 +93,8 @@ K가 해당 노드에 아무것도 없기때문에 오른쪽 포인터를 따라
 단말노드 진입, 해당 노드의 처음부터 살펴서 JPL15가 있는지 확인
 JPL15가 존재하므로 JPL15의 왼쪽 포인터에 접근해 블록에 담긴 레코드 탐색
 5번 시점에 해당 노드가 단말노드가 아니면 1부터 반복.
+![b+tree_1](https://user-images.githubusercontent.com/66079439/183567116-b890bc5c-af28-4e67-928c-e9c8d6b36bd6.png)
+
 
 ## 삽입
 레코드 삽입은 새로운 K에 대한 인덱스 엔트리를 반영하는 과정.
@@ -107,12 +109,15 @@ JPL15가 존재하므로 JPL15의 왼쪽 포인터에 접근해 블록에 담긴
 
 3.노드 내의 K들의 순서 유지.
 
+![b+tree_2](https://user-images.githubusercontent.com/66079439/183567144-4f7c786a-424d-42b6-a3e8-94752261831a.png)
 
 4.GGL50을 추가 삽입 요청
 
 5.루트 노드에 저장 공간이 없으므로 분할 진행.(이유 : n= 3, 가능한 K 수 = 2)
 
 6.분할 전 순서를 유지한 K 기준으로 부모 노드에 GGL22를 올림. (n은  3이기 때문에 1번째 index(2번째 K))
+
+![b+tree_3](https://user-images.githubusercontent.com/66079439/183567177-75d21957-e6a0-4722-bb59-71d2ba527fc3.png)
 
 부모노드 선택 :
 
@@ -129,14 +134,14 @@ GGL22보다 작은 GGL12가 왼쪽 자식노드(단말노드). GGL22와 GGL50은
 
 8.JPL15 추가 시 부모노드에 추가할 공간이 없기 때문에 부모노드 레벨에서 분할 수행.(중간노드 생성, 루트노드는 GGL50)
 
-
+![b+tree_4](https://user-images.githubusercontent.com/66079439/183567192-4b20f7d1-d843-43a1-930a-705c2ac044d8.png)
 
 ## 삭제
 레코드 삭제는 삭제할 K와 포인터를 포함하는 단말노드를 검색하고 해당 K와 포인터를 삭제하는 과정.
 
 예 : GGL70 삭제
 
-
+![b+tree_5](https://user-images.githubusercontent.com/66079439/183567218-92ccd607-fa6d-498a-b3a9-11367a2c1681.png)
 
 1.GGL70 검색 후 해당 K, 연관된 포인터 삭제
 
@@ -144,6 +149,7 @@ GGL22보다 작은 GGL12가 왼쪽 자식노드(단말노드). GGL22와 GGL50은
 
 GGL22, GGL24 차례대로 삭제
 
+![b+tree_6](https://user-images.githubusercontent.com/66079439/183567252-a6c5751c-370d-4741-a52b-2320d11b5407.png)
 
 4.GGL12삭제
 
@@ -151,14 +157,16 @@ GGL22, GGL24 차례대로 삭제
 
 6.다음 이웃 단말 노드인 GGL50, GGL51의 키를 재분배, JPL15의 부모노드를 재분배. (2번 과정 포함)
 
-
+![b+tree_7](https://user-images.githubusercontent.com/66079439/183567271-01c91314-f425-4435-9af3-5ce6087e412a.png)
 
 7.GPL24, POC12, JPL15를 차례대로 삭제
 
 8.JPL15의 다음 이웃 단말 노드가 ⌈(n-1)/2⌉ 개보다 K값이 적음. GGL51과 이웃 단말 노드와의 병합.
 
+![b+tree_8](https://user-images.githubusercontent.com/66079439/183567282-d29c53a4-f8c9-48a9-9242-9a768591a534.png)
 
 
 
 # 출처
 https://learning.oreilly.com/library/view/swift-data-structure/9781785884504/ch05s05.html
+https://velog.io/@seanlion/btree
