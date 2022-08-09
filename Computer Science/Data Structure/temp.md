@@ -92,7 +92,8 @@ K가 해당 노드에 아무것도 없기때문에 오른쪽 포인터를 따라
 해당 K = POC12, POC12의 왼쪽 포인터를 따라감
 단말노드 진입, 해당 노드의 처음부터 살펴서 JPL15가 있는지 확인
 JPL15가 존재하므로 JPL15의 왼쪽 포인터에 접근해 블록에 담긴 레코드 탐색
-5번 시점에 해당 노드가 단말노드가 아니면 1부터 반복.
+5번 시점에 해당 노드가 단말노드가 아니면 1부터 반복.  
+
 ![b+tree_1](https://user-images.githubusercontent.com/66079439/183567116-b890bc5c-af28-4e67-928c-e9c8d6b36bd6.png)
 
 
@@ -165,7 +166,8 @@ GGL22, GGL24 차례대로 삭제
 
 ![b+tree_8](https://user-images.githubusercontent.com/66079439/183567282-d29c53a4-f8c9-48a9-9242-9a768591a534.png)
 
-
+  
+  
 
 # 출처
 https://learning.oreilly.com/library/view/swift-data-structure/9781785884504/ch05s05.html
