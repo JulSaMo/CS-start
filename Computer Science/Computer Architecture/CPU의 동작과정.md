@@ -19,6 +19,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 
 <br/>
+
 #### 🧡 특수 목적 레지스터 중 중요한 것들  
 
 | 구분                           | 내용                                                         |
@@ -51,6 +52,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 
 <br/>
+
 #### 2번의 제어장치의 동작과정
 
 <img width="948" alt="image" src="https://user-images.githubusercontent.com/103012104/183634060-5bbe56b7-d803-46be-a220-a07c53e4ffcc.png">
@@ -65,6 +67,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 
 <br/>
+
 #### CPU의 동작과정
 
 <img width="939" alt="image" src="https://user-images.githubusercontent.com/103012104/183634101-6cfc7481-fd5f-414a-b98e-90b73d8db696.png">
@@ -90,6 +93,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 
 <br/>
+
 #### 명령어 포맷
 
 ![img](https://velog.velcdn.com/images%2Fckstn0777%2Fpost%2Fd87e12c6-d26e-4e45-8dfb-edd5ec89fc57%2Fimage.png)
@@ -129,6 +133,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 
 <br/>
+
 #### 기본적인 명령어 사이클 과정 (인출 사이클 + 실행 사이클)
 
 - Instruction Cycle =  인출 사이클 (Fetch Cycle) + 실행 사이클 (Execute Cycle)
@@ -165,6 +170,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 
 <br/>
+
 #### 인출한 이후, 명령어를 실행하는 과정
 
 ![img](https://velog.velcdn.com/images%2Fckstn0777%2Fpost%2Fd12ce7f1-0be8-4663-a1d8-f6046f044679%2Fimage.png)
@@ -178,6 +184,7 @@ CPU는 컴퓨터에서 가장 핵심적인 역할을 수행하는 부분, '인�
 
 
 <br/>
+
 ##### 3번 ADD addr의 명령어 연산
 
 ```
