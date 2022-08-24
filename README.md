@@ -48,8 +48,9 @@
 <br>
 
 ## 🟣 Authors ✨
-|<img src="https://github.com/DoAY9.png" width="200" height="200">|<img src="https://github.com/deslog.png" width="200" height="200">|<img src="https://github.com/SeonJeon.png" width="200" height="200">|<img src="https://github.com/GODNOEL.png" width="200" height="200">|
+|<img src="https://github.com/deslog.png" width="200" height="200">|<img src="https://github.com/SeonJeon.png" width="200" height="200">|<img src="https://github.com/GODNOEL.png" width="200" height="200">|<img src="https://github.com/rookie0031.png" width="200" height="200">|
 |:-:|:-:|:-:|:-:|
-|[Ayden](https://github.com/DoAY9)|[Brown](https://github.com/deslog)|[Jack](https://github.com/SeonJeon)|[Noel](https://github.com/GODNOEL)|
+|[Brown](https://github.com/deslog)|[Jack](https://github.com/SeonJeon)|[Noel](https://github.com/GODNOEL)|[Rookie](https://github.com/rookie0031)|
 
 
++) 📝 [Ayden](github.com/DoAY9)'s contents :  ([컴퓨터 구조](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%EA%B8%B0%EC%B4%88.md), [스택(Stack) & 큐(Queue)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/stack%26queue.md), [힙(Heap)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/heap.md), [해시](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/hash.md))
