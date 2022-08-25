@@ -38,6 +38,18 @@
 
 #### 3️⃣ Database
 
+- [키(key)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/Key(%ED%82%A4).md)
+- [SQL JOIN (SQL조인)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/SQL-join.md)
+- [SQL Injection](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/SQL-injection.md)
+- [SQL vs NoSQL](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/SQL-vs-NoSQL.md)
+- [정규화 (nomalization)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/%EC%A0%95%EA%B7%9C%ED%99%94(Nomalization).md)
+- [이상(Anomaly)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/%EC%9D%B4%EC%83%81(Anomaly).md)
+- [인덱스 (Index)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/Index(%EC%9D%B8%EB%8D%B1%EC%8A%A4).md)
+- [트랜잭션 (Transaction)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/Transaction(%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98).md)
+- [트랜잭션 격리수준 (Transaction Isolation Level)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/Transaction%20Isolation%20Level%20(%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80).md)
+- 저장프로시저 (예정)
+- 레디스 (예정)
+
 #### 4️⃣ Network
 
 #### 5️⃣ Operating System
