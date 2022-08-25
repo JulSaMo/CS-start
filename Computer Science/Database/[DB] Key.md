@@ -6,7 +6,8 @@
 
 * Swift의 Collection type에 tuple은 없다(array, dictionary, set 만 있음). 튜플은 collection type과 다르게 다른 속성의 값들이 한 Tuple안에 저장 가능.
 
-카디널리티(Cardinality) : 전체 행에 대한 특정 컬럼의 중복 수치를 나타내는 지표. 
+카디널리티(Cardinality) : 전체 행에 대한 특정 컬럼의 중복 수치를 나타내는 지표.
+차수(degree): 한 릴레이션 안에 있는 attribute(속성)의 개수
 
 #### < 학생 > 릴레이션
 |학번|주민번호|성명|성별|
