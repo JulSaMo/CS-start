@@ -34,7 +34,7 @@
 - [B-Tree & B+Tree](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/btree-%26-b%2Btree.md)
 
 
-트리(Tree)와 
+
 #### 3️⃣ Database
 
 - [키(key)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/Key(%ED%82%A4).md)
