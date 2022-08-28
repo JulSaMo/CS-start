@@ -28,14 +28,13 @@
 - [Array & ArrayList & LinkedList](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/Array%2C%20Array%20List%2C%20Linked%20List%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
 - [스택(Stack) & 큐(Queue)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/stack%26queue.md)
 - [힙(Heap)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/heap.md)
-- [트리(Tree)]()
-- [이진 탐색 트리 (Bianry Search Tree)]()
+- [트리(Tree)와 이진 탐색 트리(Bianry Search Tree)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/tree-%26-binary-tree.md)
 - [해시(Hash)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/hash.md)
 - [트라이 (Trie)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/Trie.md)
-- [B-Tree & B+Tree]()
+- [B-Tree & B+Tree](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Data%20Structure/btree-%26-b%2Btree.md)
 
 
-
+트리(Tree)와 
 #### 3️⃣ Database
 
 - [키(key)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Database/Key(%ED%82%A4).md)
