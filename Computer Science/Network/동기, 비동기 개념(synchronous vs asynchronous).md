@@ -66,7 +66,7 @@ function A() {
 동기는 또 다른 관점에서는, 제어권과 결과값을 동시에 반환하는 것을 말하기도 한다. 아까 봤던 예시를 그림으로 표현한 것인데, 여기서 호출된 A는 작업을 마치고 자신을 호출한 부모함수에게 결과값(3)을 알려주면서, 동시에 제어권도 함께 돌려준다.
 
 ```
-https://www.notion.so/d6429faca47a42cc9770e9aa1cd850fb#da2d96d132d84563b84a6106c5a1b559
+<img width="636" alt="image" src="https://user-images.githubusercontent.com/103009135/187202818-ea8a4dbf-dff7-4ade-bdfb-47be70519ebe.png">
 
 
 ## asynchronous
@@ -93,71 +93,71 @@ https://www.notion.so/d6429faca47a42cc9770e9aa1cd850fb#da2d96d132d84563b84a6106c
 
 특정 구문을 완료할 때 까지 제어권을 돌려주지 않으며, 작업을 요청한 함수가 직접 그 완료여부를 체크함
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4d441f2a-f5b6-4642-8163-106cd4eaa8da/Untitled.png)
+<img width="598" alt="image" src="https://user-images.githubusercontent.com/103009135/187203062-fdad09ac-c889-41f8-a2fc-f0e99d2c687f.png">
+
 
 func calculate(a:Int, b:Int ) → Int {
 
-print(”계산을 시작합니다.”)
+  print(”계산을 시작합니다.”)
 
-let multiplier = a + b // 이 구문이 caclulate 함수의 작업을 block함.
-( 그 다음 작업에 result가 필요하기때문) 
+  let multiplier = a + b // 이 구문이 caclulate 함수의 작업을 block함.
+  ( 그 다음 작업에 result가 필요하기때문) 
 
-let result = a * b * multiplier // calculate함수는 자신의 작업을 계속 수행하기 위해 위의 구문을 완료했는지 직접 체크를 해야한다.
+  let result = a * b * multiplier // calculate함수는 자신의 작업을 계속 수행하기 위해 위의 구문을 완료했는지 직접 체크를 해야한다.
 
-print(”계산을 끝냅니다.”)
+  print(”계산을 끝냅니다.”)
 
-return result  // End
-
+  return result  // End
 }
 
 ## 블로킹, 비동기 예시
 
 특정 구문을 완료할 때 까지 제어권을 돌려주지 않지만 작업을 요청받은 함수가 끝나면 알려줌.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b28c9130-46d0-4432-809a-ffd86ee2c74e/Untitled.png)
+<img width="598" alt="image" src="https://user-images.githubusercontent.com/103009135/187203143-572d045d-d10d-4372-825c-dbd084b2152a.png">
+
 
 func calculate(a:Int, b:Int ) → Int {
 
-print(”계산을 시작합니다.”)
+  print(”계산을 시작합니다.”)
 
-let finalResult = requestMultiplier( ) { response in 
+  let finalResult = requestMultiplier( ) { response in 
 
-let multiplier = response
+    let multiplier = response
 
-print(”multiplier를 성공적으로 받아왔습니다.”)
-let result = a * b * self.multiplier
+    print(”multiplier를 성공적으로 받아왔습니다.”)
+    let result = a * b * self.multiplier
 
-print(”계산이 끝났습니다”)
+    print(”계산이 끝났습니다”)
 
-return result
+    return result
 
-}  //  requestMultiplier 함수가 calculate 함수의 작업을 block함 
+  }  //  requestMultiplier 함수가 calculate 함수의 작업을 block함 
 
 (requestMultiplier의 수행이 끝나기전까지 finalResult를 return할 수 없음)
 
 return finalResult * 3
-
 }
 
-// calculate 함수와 requestMultiplier 함수는 작업을 비동기적으로 수행한다. 
-
+// calculate 함수와 requestMultiplier 함수는 작업을 비동기적으로 수행한다.
 // requestMultiplier은 작업이 끝났음을  response in 이하의 escaping closure 구문을 통해 알려준다)
 
 ## 논블로킹, 동기 예시
 
 제어권을 바로 돌려주지만 작업을 요청한 함수가 직접 그 완료여부를 체크함
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/192a66ce-5681-4c97-90a6-923775a1b63f/Untitled.png)
+<img width="614" alt="image" src="https://user-images.githubusercontent.com/103009135/187203250-1c0bd89f-8993-4815-8b22-07aa3f2cca5c.png">
+
 
 func calculate(a:Int, b:Int ) → Int {
 
-print(”하나 둘 셋”) // #1
+  print(”하나 둘 셋”) // #1
 
-print(”절사모”) // #2 - 1번 출력된거 맞지? 그럼 나 출력한다?
+  print(”절사모”) // #2 - 1번 출력된거 맞지? 그럼 나 출력한다?
 
-print(”화이팅!”) // #3 - 2번 출력된거 맞지? 그럼 나 출력한다?
+  print(”화이팅!”) // #3 - 2번 출력된거 맞지? 그럼 나 출력한다?
 
-return a+b // 너네 다 출력했지? 그럼 나 반환한다?
+  return a+b // 너네 다 출력했지? 그럼 나 반환한다?
 
 }
 
@@ -167,33 +167,33 @@ return a+b // 너네 다 출력했지? 그럼 나 반환한다?
 
 제어권을 바로 돌려주고 작업을 요청받은 함수가 끝나면 직접 알려줌.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1573656e-80f5-4c1e-afe8-9eaab4845bc7/Untitled.png)
+<img width="585" alt="image" src="https://user-images.githubusercontent.com/103009135/187203355-9d235c27-24f8-4aa3-bb93-2fedecbe5258.png">
+
 
 func calculate(a:Int, b:Int ) → Int {
 
-let multiplier = 1
+  let multiplier = 1
 
-print(”계산을 시작합니다.”)
+  print(”계산을 시작합니다.”)
 
-while true {
+  while true {
 
-requestMultiplier( ) {  result in 
+    requestMultiplier( ) {  result in 
 
-let multiplier = result
+    let multiplier = result
 
-print(”multiplier를 성공적으로 받아왔습니다.”)
+    print(”multiplier를 성공적으로 받아왔습니다.”)
 
-} // 서버로부터 result를 가져오는 작업이 비동기적으로 이루어지지만 그 이후 calculate 함수 내의 코드가 그 결과를 반드시 필요하지 않으니 함수를 block하지는 않음. 그냥 다른 코드를 계속 수행함 
+    } // 서버로부터 result를 가져오는 작업이 비동기적으로 이루어지지만 그 이후 calculate 함수 내의 코드가 그 결과를 반드시 필요하지 않으니 함수를 block하지는 않음. 그냥 다른 코드를 계속 수행함 
 
-print(”서버로 부터 받아온 multiplier는 \(multiplier)이다”)
+    print(”서버로 부터 받아온 multiplier는 \(multiplier)이다”)
 
-if multiplier < 6 {
+    if multiplier < 6 {
 
-break
+    break
 
-}
-
-}
+    }
+  }
 
 print(”while문을 다시 수행합니다.”)
 
