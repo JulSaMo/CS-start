@@ -1,4 +1,8 @@
-Blocking I/O
+// 20220829 Rookie
+
+#### I/O 는 Input Output의 줄임말이다
+
+## Blocking I/O
 
 I/O Blocking 형태의 작업은
 
