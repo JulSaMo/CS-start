@@ -1,10 +1,13 @@
 //2022.08.28 Noel
 
+<br/>
+<br/>
+<br/>
 
 
 # ❤️OSI 7계층
 
-
+<br/>
 
 ### 🧡 OSI 7계층이란?
 
@@ -45,15 +48,15 @@
 - 아래 그림처럼 **1계층(물리계층) ~ 7계층(응용 계층)**으로 구성
 - 각 계층을 지날 때마다 각 계층에서 **Header가 붙게되고, 수신측은 역순으로 헤더를 분석**
 
-![image-20220829173412927](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220829173412927.png)
+<img width="793" alt="image" src="https://user-images.githubusercontent.com/103012104/187397696-17790af9-601c-4b39-a998-7e8794a0bdda.png">
 
 
 
 ### 🧡 OSI 7계층 구조
 
-![image-20220828200842077](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220828200842077.png)
+<img width="730" alt="image" src="https://user-images.githubusercontent.com/103012104/187397828-0312a5ce-8158-4814-9e4f-2700d2ebd32d.png">
 
-![image-20220829195127018](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220829195127018.png)
+<img width="817" alt="image" src="https://user-images.githubusercontent.com/103012104/187397903-baa5a9a1-4935-43a7-b2ad-ffd884860126.png">
 
 ``` 요약
 1. 물리 계층
@@ -129,7 +132,7 @@ EX) 이메일 전송을 한다.
 
   - 대표적 장비 : 통신 케이블, 리피터, 허브 등<br/>
 
-    ![image-20220828211051381](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220828211051381.png)
+    <img width="657" alt="image" src="https://user-images.githubusercontent.com/103012104/187398015-12150ba2-4206-46f5-b373-1b8c75396b20.png">
 
 <br/>
 
@@ -191,7 +194,7 @@ EX) 이메일 전송을 한다.
   - 데이터 단위 : 패킷(Packet)<br/>
   - 대표적 장치 : 라우터, 라우팅 기능을 장착한 L3 스위치(여기서 IP 주소 사용)<br/>
 
-![image-20220828213835301](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220828213835301.png)
+<img width="748" alt="image" src="https://user-images.githubusercontent.com/103012104/187398091-ae7ad9d5-53a4-4e6d-8dca-ecb984cc6b9b.png">
 
 ```참고
 💡이해를 위한 용어 설명
