@@ -239,10 +239,10 @@ RSA에는 순방향 비밀성이 제공되지 않는다. (????? 그럼 RSA말고
 
 
 ## 📝 References
-[본문 사진 및 기본 대칭키 공개키 내용](https://hammii.tistory.com/m/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EB%8C%80%EC%B9%AD%ED%82%A4%EC%99%80-%EA%B3%B5%EA%B0%9C%ED%82%A4)
-[암호화 복호호화 개념 및 장/단점](https://velog.io/@yanghl98/Network-%EB%8C%80%EC%B9%AD%ED%82%A4%EA%B3%B5%EA%B0%9C%ED%82%A4-Symmetric-KeyPublic-Key)
-[암호화 복호화 장/단점 및 특징](https://retro-blue.tistory.com/40)
-[디프헬만 알고리즘](https://www.crocus.co.kr/1233)
-[키 합의 프로토콜, 무결성 및 기밀성을 위한 노력](https://velog.io/@gs0351/%EB%8C%80%EC%B9%AD%ED%82%A4-vs-%EA%B3%B5%EA%B0%9C%ED%82%A4%EB%B9%84%EB%8C%80%EC%B9%AD%ED%82%A4)
+- [본문 사진 및 기본 대칭키 공개키 내용](https://hammii.tistory.com/m/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EB%8C%80%EC%B9%AD%ED%82%A4%EC%99%80-%EA%B3%B5%EA%B0%9C%ED%82%A4)
+- [암호화 복호호화 개념 및 장/단점](https://velog.io/@yanghl98/Network-%EB%8C%80%EC%B9%AD%ED%82%A4%EA%B3%B5%EA%B0%9C%ED%82%A4-Symmetric-KeyPublic-Key)
+- [암호화 복호화 장/단점 및 특징](https://retro-blue.tistory.com/40)
+- [디프헬만 알고리즘](https://www.crocus.co.kr/1233)
+- [키 합의 프로토콜, 무결성 및 기밀성을 위한 노력](https://velog.io/@gs0351/%EB%8C%80%EC%B9%AD%ED%82%A4-vs-%EA%B3%B5%EA%B0%9C%ED%82%A4%EB%B9%84%EB%8C%80%EC%B9%AD%ED%82%A4)
 
 
