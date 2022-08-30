@@ -1,12 +1,14 @@
 //220830 Noel
 
-
+<br/>
+<br/>
+<br/>
 
 # ❤️ 로드 밸런싱(Load Balancing)
 
 > 둘 이상의 CPU or 저장장치와 같은 컴퓨터 자원들에게 작업을 나누는 것
 
-
+<br/>
 
 #### 🧡 로드 밸런싱의 필요성<br/>
 
@@ -37,7 +39,7 @@
 
 #### 🧡 증가한 트래픽에 대처하는 방법
 
-![image-20220830165118143](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220830165118143.png)
+<img width="790" alt="image" src="https://user-images.githubusercontent.com/103012104/187400793-dbc0fd3f-12fa-433b-ad77-cad20a5a352a.png">
 
 **Scale-up<br/>**
 
@@ -60,7 +62,7 @@
 
 #### 🧡로드 밸런싱 이란?<br/>
 
-![image-20220830162632826](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220830162632826.png)
+<img width="781" alt="image" src="https://user-images.githubusercontent.com/103012104/187400892-5d970ab9-a889-45f6-8342-1ff5c6190bb1.png">
 
 - 로드 밸런싱은 **여러 대의 서버를 두고 서비스를 제공하는 분산처리 시스템에서 필요한 기술**<br/>
 - 분산식 웹 서비스로, **여러 서버에 부하(Load)를 나누어주는 역할**<br/>
@@ -117,20 +119,20 @@ L4? L7?
 - 상위 계층에서 사용되는 장비는 하위 계층의 장비가 갖고 있는 기능을 모두 가지고 있으며, 상위 계층으로 갈수록 더욱 정교한 로드밸런싱이 가능
 ```
 
-
+<br/>
 
 ##### 💚 L4 로드밸런싱
 
-![image-20220830173154124](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220830173154124.png)
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/103012104/187400965-cfbbc79a-d5ac-4bfe-952b-11df7d21f049.png">
 
 - L4 로드밸런서는 네트워크 계층(IP, IPX)이나 트랜스포트 계층(TCP, UDP)의 정보를 바탕으로 로드를 분산
 -  IP주소나 포트번호, MAC주소, 전송 프로토콜에 따라 트래픽을 나누는 것이 가능
 
-
+<br/>
 
 ##### 💚 L7 로드밸런싱
 
-![image-20220830173305856](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220830173305856.png)
+<img width="796" alt="image" src="https://user-images.githubusercontent.com/103012104/187400999-99984adc-429e-45f7-9cf5-9a85d74d7a77.png">
 
 - L7 로드밸런서의 경우 애플리케이션 계층(HTTP, FTP, SMTP)에서 로드를 분산하기 때문에 HTTP 헤더, 쿠키 등과 같은 **사용자의 요청을 기준으로 특정 서버에 트래픽을 분산**하는 것이 가능
 - 쉽게 말해 **패킷의 내용을 확인하고 그 내용에 따라 로드를 특정 서버에 분배**하는 것이 가능
