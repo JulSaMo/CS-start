@@ -50,6 +50,8 @@
 
 <img width="793" alt="image" src="https://user-images.githubusercontent.com/103012104/187397696-17790af9-601c-4b39-a998-7e8794a0bdda.png">
 
+<br/>
+<br/>
 
 
 ### 🧡 OSI 7계층 구조
