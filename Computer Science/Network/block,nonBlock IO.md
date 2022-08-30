@@ -10,17 +10,17 @@ Block과 non Block은 작업을 수행하는 방식의 일종이며 데이터를
 
 Blocking I/O 는 다음과 같은 순서로 이루어지는 작업을 뜻합니다.
 
-(1) Process(Thread)가 Kernel에게 I/O를 요청하는 함수를 호출합니다.
+### (1) Process(Thread)가 Kernel에게 I/O를 요청하는 함수를 호출합니다.
 
 - Process와 thread
     
-    ### Process
+    **Process**
     
     Process는 컴퓨터에서 연속적으로 실행되는 컴퓨터 프로그램이다. 지금 이 글을 읽고 있다면 gitHub를 켜놨을터이니, gitHub가 프로세스가 되는 것이다. 
     
     프로세스는 각각 독립된 메모리 영역(code,data,stack,heap)을 할당받는다. 당연히 gitHub를 실행하면 이전에 했던 데이터들이 메모리에 올라가있어야 빠르게 프로세스가 수행되겠죠?
     
-    ### Thread
+    **Thread**
     
     쓰레드는 프로세스 내에서 실행되는 작업 흐름 단위입니다. 
     
@@ -29,16 +29,14 @@ Blocking I/O 는 다음과 같은 순서로 이루어지는 작업을 뜻합니�
 - Kernel
 운영체제는 **항상 필요한 부분**만 전원이 켜짐과 동시에 메모리에 올려놓고 그렇지 않은 부분은 필요할 때마다 메모리에 올려서 사용하게 된다. 이 때 **메모리에 상주하는 운영체제의 일부분을 커널**이라 한다.
     
-    ---
-    
-    Reference
+    **Reference**
     
     [https://goodmilktea.tistory.com/23](https://goodmilktea.tistory.com/23) 
     
 
 프로그램이 수행되려면 당연히 자료(데이터)를 받아와야겟죠? 그러니 컴퓨터 운영체제 OS에게 자료의 입,출입을 요청하는 것입니다. 
 
-(2) Kernel이 작업을 완료하면 작업 결과를 반환 받음.
+### (2) Kernel이 작업을 완료하면 작업 결과를 반환 받음.
 
 - 특징
     - I/O 작업이 진행되는 동안 user Process(Thread) 는 자신의 작업을 중단한 채 대기
@@ -63,7 +61,9 @@ Blocking I/O 는 다음과 같은 순서로 이루어지는 작업을 뜻합니�
     [https://velog.io/@taehee-kim-dev/컨텍스트-스위칭](https://velog.io/@taehee-kim-dev/%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%EC%9C%84%EC%B9%AD) 
     
 
-## **Non-Blocking I/O**
+---
+
+## No**n-Blocking I/O**
 
 마찬가지로 non Blocking I/O 는 다음과 같은 순서로 이루어지는 작업을 뜻합니다.
 
@@ -89,6 +89,8 @@ Blocking I/O 는 다음과 같은 순서로 이루어지는 작업을 뜻합니�
         
     5. recvfrom 함수는 빠른 속도로 data를 복사한 후, 복사한 data의 길이와 함께 반환함.
     
+
+---
 
 ## References
 
