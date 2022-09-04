@@ -76,6 +76,10 @@ HTTPS는 대칭키 암호화 방식과 비대칭키 암호화방식 모두를 �
 
 <p align="center"><img width="456" alt="image" src="https://user-images.githubusercontent.com/96969693/187376772-c4f511fe-39a7-4d8f-8d18-e6ef0263c9c7.png"></p>
 
+### ✨ 조금 더 쉬운 이해를 위해 공개키와 개인키에 대한 그림 첨부!
+
+<p align="center"><img width="800" alt="image" src="https://user-images.githubusercontent.com/96969693/188319062-68600cce-e72a-40e4-a7f3-70bbfc9dd551.png"></p>
+
 
 ## 🔸 HTTPS의 동작 과정
 대칭키 암호화와 비대칭키 암호화를 모두 사용해서 빠른속도와 안정성을 모두 얻고있는 것이 장점이다.
