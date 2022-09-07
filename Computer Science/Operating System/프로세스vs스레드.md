@@ -26,7 +26,7 @@
 
 #### 특징
 
-![image-20220907122615897](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220907122615897.png)
+<img width="798" alt="image" src="https://user-images.githubusercontent.com/103012104/188881267-90371266-f38a-460f-ba81-a257da2a6f44.png">
 
 - 프로세스는 `각각 독립된 메모리 영역(Code, Data, Stack, Heap의 구조)을 할당` 받음<br/>
 
@@ -75,7 +75,8 @@
   - 각각의 스레드는 별도의 레지스터와 스택을 갖고 있지만, 힙 메모리는 서로 읽고 쓸 수 있음 <br/>
   - 한 스레드가 프로세스 자원을 변경하면, 다른 이웃 스레드(sibling thread)도 변경 결과를 즉시 볼 수 있음 <br/>
 
-  ![image-20220907141143998](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220907141143998.png)
+<img width="763" alt="image" src="https://user-images.githubusercontent.com/103012104/188881342-9dced40c-5cc1-4cc3-8f7b-ce41f9f273d6.png">
+
 
 ```요약
 🗒 요약
