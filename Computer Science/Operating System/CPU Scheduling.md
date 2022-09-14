@@ -151,9 +151,6 @@ time quantum을 다채웠다는것은 CPU burst process일 가능성이 높죠 �
 4. 대기 (Waiting) : 보류(Block)라고도 하며, 프로세스가 입출력이나 이벤트를 기다리는 상태
 5. 종료 (Terminated) : 프로세스 종료 상태
 
-- 선점 스케줄링 : `Interrupt`, `I/O or Event Completion`, `I/O or Event Wait`, `Exit`
-- 비선점 스케줄링 : `I/O or Event Wait`, `Exit`
-
 ---
 
 **프로세스의 상태 전이**
@@ -163,6 +160,9 @@ time quantum을 다채웠다는것은 CPU burst process일 가능성이 높죠 �
 3. **인터럽트 (Interrupt)** : 예외, 입출력, 이벤트 등이 발생하여 현재 실행 중인 프로세스를 준비 상태로 바꾸고, 해당 작업을 먼저 처리하는 것.
 4. **입출력 또는 이벤트 대기 (I/O or Event wait)** : 실행 중인 프로세스가 입출력이나 이벤트를 처리해야 하는 경우, 입출력/이벤트가 모두 끝날 때까지 대기 상태로 만드는 것.
 5. **입출력 또는 이벤트 완료 (I/O or Event Completion)** : 입출력/이벤트가 끝난 프로세스를 준비 상태로 전환하여 스케줄러에 의해 선택될 수 있도록 만드는 것.
+
+- 선점 스케줄링 : `Interrupt`, `I/O or Event Completion`, `I/O or Event Wait`, `Exit`
+- 비선점 스케줄링 : `I/O or Event Wait`, `Exit`
 
 ### **[#](https://gyoogle.dev/blog/computer-science/operating-system/CPU%20Scheduling.html#_5-cpu-%E1%84%89%E1%85%B3%E1%84%8F%E1%85%A6%E1%84%8C%E1%85%AE%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC-%E1%84%8E%E1%85%A5%E1%86%A8%E1%84%83%E1%85%A9)5. CPU 스케줄링 척도**
 
