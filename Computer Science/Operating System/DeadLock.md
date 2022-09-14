@@ -131,9 +131,10 @@
     
     자원 할당 그래프를 통해 교착 상태를 탐지함
     
-    - 자원할당 그래프란?
+    - 자원할당 그래프란? : 프로세스와 자원의 할당관계를 시각화한 그림
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1ca44b0-97b3-4914-9526-ef6401741e92/Untitled.png)
+        <img width="831" alt="image" src="https://user-images.githubusercontent.com/103009135/190204804-91093b68-32f4-42c6-826d-3c167f0fdad1.png">
+
         
     
     자원 요청 시, 탐지 알고리즘을 실행시켜 그에 대한 오버헤드 발생함
