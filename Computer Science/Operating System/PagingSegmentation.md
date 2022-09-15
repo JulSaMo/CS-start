@@ -83,4 +83,7 @@
   - 내부 단편화가 생기지 않는다.
   - 복잡한 메모리 관리로 오버헤드가 발생할 수 있다.
   
+  
+## Reference
+  - https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=qbxlvnf11&logNo=221367707105
 
