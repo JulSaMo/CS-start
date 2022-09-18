@@ -510,13 +510,16 @@ required init?(coder aDecoder: NSCoder) {
 
 <br>
 <br>
+
 ## 📖 Reference
+
 - [oop란](https://velog.io/@dolarge/CS-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%B4%EB%9E%80)
 - [스위프트가 지향하는 프로그래밍 패러다임](https://bite-sized-learning.tistory.com/550)
 - [oop란, 사진출처](https://radait.tistory.com/4?category=836792)
 - [override, overload에 대한 코드 및 개념 참고](https://babbab2.tistory.com/129)
 
 #### 📝 SOLID를 만족하기 위해서,, 리팩토링의 개념이 사용된다. (좋은 코드 = 객체지향과 상당한 연관이 있구나)
+
 - [oop의 solid 원칙 자세한 설명](https://sjh836.tistory.com/159)
 - [리팩토링의 기초 - 단계, 단계와 분리, 다형성](https://becomereal.tistory.com/121)
 - [Massive View에 대한 설명](https://jisoo.net/2018/11/24/why-mvc-destroyed.html)
