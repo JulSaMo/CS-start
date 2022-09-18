@@ -51,7 +51,36 @@
 
 #### 4️⃣ Network
 
+- [OSI 7 계층](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/OSI%207%20Layer.md)
+- [Load Balancing (로드 밸런싱)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/Load%20Balancing.md)
+- [대칭키와 비대칭키(공개키)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/Symmetric%20Key%20%26%20Public%20Key%20(%EB%8C%80%EC%B9%AD%ED%82%A4%EC%99%80%20%EA%B3%B5%EA%B0%9C%ED%82%A4).md)
+- [HTTP와 HTTPS](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/http%EC%99%80%20https.md)
+- [Block 과 Non-Block 이란](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/Block%2C%20Non-Block%20IO.md)
+- [Sync, Async (동기와 비동기 개념)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/%EB%8F%99%EA%B8%B0%2C%20%EB%B9%84%EB%8F%99%EA%B8%B0%20%EA%B0%9C%EB%85%90(synchronous%20vs%20asynchronous).md)
+- [TCP와 UDP](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/tcp%EC%99%80%20Udp.md)
+- [TCP/IP계층, FlowControl, Congestion Control (흐름제어와 혼잡제어)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/tcpIpControlFlow%26Congestion(%ED%9D%90%EB%A6%84%26%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4).md)
+- [TCP N-way Handshake (3way, 4way)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/tcp3%20%26%204way(%EC%A0%84%EC%86%A1%EC%A0%9C%EC%96%B4%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8).md)
+- [TLS와 SSL](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Network/TLS%2C%20SSL.md)
+
+
 #### 5️⃣ Operating System
+
+- [운영체재란](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C.md)
+- [프로세스 vs 스레드(Process vs Thread)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4vs%EC%8A%A4%EB%A0%88%EB%93%9C.md)
+- [프로세스 주소공간](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%A3%BC%EC%86%8C%EA%B3%B5%EA%B0%84.md)
+- [Semaphore과 Mutex (세마포어와 뮤텍스)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/Semaphore%2C%20Mutex(%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4%2C%20%EB%AE%A4%ED%85%8D%EC%8A%A4).md)
+- [System Call (시스템콜, 시스템 호출)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/SystemCall(%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%BD%9C%2C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%98%B8%EC%B6%9C).md)
+- [File system (파일시스템)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/fileSystem.md)
+- [Memory (메모리)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/memory.md)
+- [CPU 스케쥴링](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/CPU%20Scheduling.md)
+- [DeadLock (데드락)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/DeadLock.md)
+- [IPC란](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/IPC.md)
+- [PCB와 Context Switching(문맥교환)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/PCB%EC%99%80%20Context%20Switching(%EB%AC%B8%EB%A7%A5%EA%B5%90%ED%99%98).md)
+- [paging(페이징)과 Segmentation](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/Paging%EA%B3%BC%20Segmentation.md)
+- [페이징 교체 알고리즘](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/%ED%8E%98%EC%9D%B4%EC%A7%95%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%9E%E3%85%81.md)
+- [인터럽트](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8.md)
+- [Race Condition (경쟁상태)](https://github.com/JulSaMo/CS-start/blob/main/Computer%20Science/Operating%20System/%EA%B2%BD%EC%9F%81%EC%83%81%ED%83%9C%20(Race%20Condition).md)
+
 
 #### 6️⃣ Software Engineering
 
