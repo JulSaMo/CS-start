@@ -79,5 +79,10 @@ process(10, print(num))
 
 
 
+## 📖 REFERENCE
+- [swift에서 명령형과 선언형 비교](https://borabong.tistory.com/5)
+- [망나니 개발자 함수형 프로그래밍 이란?](https://mangkyu.tistory.com/111)
+- 
+
 
 
