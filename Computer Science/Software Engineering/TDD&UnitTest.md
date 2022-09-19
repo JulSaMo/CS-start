@@ -122,7 +122,7 @@ swift 파일안에는 test를 위한 클래스와 메소드들이 내장되어�
 #### 꼼꼼한 만큼 정확하겠지만 위에 보는 바와같이 시간이 많이 걸릴 수 밖에 없다 
 
 ## Reference
-https://www.youtube.com/watch?v=B4yJ85IaTUw&t=836s 
+https://www.youtube.com/watch?v=B4yJ85IaTUw 
 https://github.com/Rookie0031/Swift-Questions/issues/27 
 
 
