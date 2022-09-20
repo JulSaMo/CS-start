@@ -14,7 +14,7 @@
 
 - 애플리케이션의 모든 구성 요소가 한프로젝트에 통합되어 있는 형태<br/>
 
-![image-20220920205153841](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220920205153841.png)
+<img width="962" alt="image" src="https://user-images.githubusercontent.com/103012104/191277483-c3729032-fd44-49ba-b168-006500afdf6c.png">
 
 <br/>
 
@@ -48,7 +48,7 @@
 - MSA 아키텍처는 하나의 큰 애플리케이션을 여러 개의 작은 어플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 형태<br/>
 - 작은 레고 블록(Microservice) 하나 하나를 붙여 어떠한 큰 결과물을 만드는 레고 같은 것<br/>
 
-![image-20220920204955781](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220920204955781.png)
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/103012104/191277586-bc9511b1-f29f-4d1a-a7a9-e4fcd84d8a6b.png">
 
 <br/>
 
@@ -112,7 +112,8 @@ MSA는 크게 내부 아키텍처와 외부 아키텍처로 구분
 
 - 아래 이미지 : 남색 = 내부 아키텍처 / 회색 = 외부 아키텍처
 
-![image-20220920214435834](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220920214435834.png)
+<img width="983" alt="image" src="https://user-images.githubusercontent.com/103012104/191277735-c34217e4-1899-459b-a7e8-312132fe218d.png">
+
 
 <br/>
 
@@ -155,7 +156,8 @@ MSA는 크게 내부 아키텍처와 외부 아키텍처로 구분
 
 - API 게이트웨이는 서버 최앞단에 위치하며 모든 API 호출을 받음, 받은 API 호출을 인증 한 후 적절한 서비스에 메시지 전달 (routing)<br/>
 
-  ![image-20220920222925405](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220920222925405.png)
+  <img width="968" alt="image" src="https://user-images.githubusercontent.com/103012104/191277861-59768d0d-62f4-49a6-b9b1-4e926398e9af.png">
+
 
 <br/>
 
@@ -164,7 +166,7 @@ MSA는 크게 내부 아키텍처와 외부 아키텍처로 구분
 - Service Mesh는 마이크로서비스 구성 요소간의 네트워크를 제어하는 역할
 - 서비스 간에 통신을 하기 위해서는 `service discovery`, `service routing`, `트래픽 관리 및 보안` 등을 담당하는 요소가 있어야 하는데 이 기능을 `Service Mesh`가 수행
 
-![image-20220920223146357](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220920223146357.png)
+<img width="950" alt="image" src="https://user-images.githubusercontent.com/103012104/191277908-4b991260-0d42-4c9e-9683-94c45e29e21a.png">
 
 <br/>
 
@@ -175,7 +177,7 @@ MSA는 크게 내부 아키텍처와 외부 아키텍처로 구분
 
 - 대표적인 컨테이너 관리 환경인 `Kubernetes`가 `Container management`에 많이 사용
 
-![image-20220920223320256](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220920223320256.png)
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/103012104/191278000-4f0cd585-992d-47fd-a492-96d451d34502.png">
 
 <br/>
 
@@ -224,9 +226,8 @@ MSA는 크게 내부 아키텍처와 외부 아키텍처로 구분
 
 ## 모놀리식 아키텍처 VS 마이크로 서비스 아키텍처 <br/>
 
-![image-20220920213234404](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220920213234404.png)
-
-![image-20220920213302217](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220920213302217.png)
+<img width="975" alt="image" src="https://user-images.githubusercontent.com/103012104/191278134-83cf1a3d-196e-403f-9ef1-457915e0512d.png">
+<img width="970" alt="image" src="https://user-images.githubusercontent.com/103012104/191278171-f58ae6a8-7aaf-4a0a-8dd0-0addb3c7dfa1.png">
 
 
 
