@@ -167,21 +167,63 @@ func getName -> String {
 
 명령평 프로그래밍과 함수형 프로그래밍에서 사용하는 함수는 ```side effect의 유무``` 에 따라 차이가 있다. 이에 따라서 함수가 참조에 투명한지 안한지 나눠지는데, 참조에 투명하다는 것은 말 그대로 함수를 실행하여도 어떠한 상태 변화 없이 항상 동일한 결과를 반환하여 항당 동일하게(투명하게) 실행 결과를 참조(예측)할 수 있다는 것을 의미한다.
 
+## 🔸 함수형 프로그래밍의 장점을 알아보자!
+
+- 여러가지 연산 처리 작업이 동시에 일어나는 프로그램을 짜기 쉽다.
+- 멀티코어 혹은 여러 연산 프로세서를 사용하는 시스템에서 효율적인 프로그램을 만들기 쉽다.
+- 상태변화에 따른 부작용에서 자유로워지므로 순수하게 기능 구현에 초점을 맞춰 설계가 가능하다.
 
 # 🟠 명령형 프로그래밍과 함수형 프로그래밍 코드로 비교해보기
 
-doSomthing 함수와 doAnotherThing 함수를 동시에 실행하는 코드를 작성했다고 치자.
+doSomething 함수와 doAnotherThing 함수를 동시에 실행하는 코드를 작성했다고 치자.
 
 ```swift
-//
+// ✅ 명령형 프로그래밍
 class CommandProgramming {
+    func doSomething() {
+        print("doSomething")
+    }
+    
+    func doAnotherThing() {
+        print("doAnotherThing")
+    }
+    
+    func executeAll() {
+        doSomething()
+        doAnotherThing()
+    }
+}
 
+// 호출
+excuteAll()
 ```
-
 
 ```swift
+// ✅ 함수형 프로그래밍
+class CommandProgramming {
+    func doSomething() {
+        print("doSomething")
+    }
+    
+    func doAnotherThing() {
+        print("doAnotherThing")
+    }
+    
+    func executeAll(tasks: [() -> Void)) {
+        for task in tasks {
+            task()
+        }
+    }
+}
 
+// 호출
+excute(tasks: [doAnotherThing, doSomething])
 ```
+
+함수형 프로그래밍 안에서는 함수가 일급객체 이므로, 함수를 전달인자 또는 반환값으로 사용할 수 있다.
+차이점을 표로 보면 다음과 같다.
+
+<p align="center"><img width="707" alt="image" src="https://user-images.githubusercontent.com/96969693/191195013-ee11b12b-896f-4859-8376-61d157608096.png"></p>
 
 
 
@@ -189,6 +231,5 @@ class CommandProgramming {
 - [swift에서 명령형과 선언형 비교](https://borabong.tistory.com/5)
 - [망나니 개발자 함수형 프로그래밍 이란?](https://mangkyu.tistory.com/111)
 - [순수함수](https://jinnify.tistory.com/54)
-
 
 
