@@ -103,7 +103,7 @@ process(10, print(num))
 ```swift
 var testName = "hello world"
 
-func getName -> String {
+func getName() -> String {
     return testName
 }
 ```
@@ -115,7 +115,7 @@ func getName -> String {
 ```
 
 그럼 위 함수를 순수함수로 바꿔보자.
-```
+```swift
 func getName(_ name: String) -> String {
     return name
 }
@@ -132,7 +132,7 @@ func getName(_ name: String) -> String {
 ```swift
 let testName = "hello world"
 
-func getName -> String {
+func getName() -> String {
     return testName
 }
 ```
