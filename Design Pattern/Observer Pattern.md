@@ -45,7 +45,7 @@ Combine framework의 Publisher(Observable),Subscriber(Observer)과 Notification 
 
 - 알림주체가 되는 객체(Subject)는 자신을 관찰하는 1:N(1대다) 관계를 맺을 수 있음<br/>
 
-![image-20220926172846545](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220926172846545.png)
+<img width="1083" alt="image" src="https://user-images.githubusercontent.com/103012104/192536507-c5391cb5-7ca7-4857-a400-58aab1d33ed9.png">
 
 #### Subject(publisher)😎<br/>
 
@@ -146,7 +146,7 @@ https://daheenallwhite.github.io/design%20pattern/2019/07/02/Observer-Pattern/<b
 - 구독자들에게 이벤트가 발생했다는 알림이 가고<br/>
 - 이벤트가 발생하면, 구독자들은 영상을 시청하고 반응을 하는 예제입니다.<br/>
 
-![image-20220926181110478](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220926181110478.png)
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/103012104/192536587-6949b3f6-f129-4c14-b33d-41ce9f643862.png">
 
 <br/>
 
