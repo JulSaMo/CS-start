@@ -29,7 +29,7 @@
 
 ### 전략 패턴 구조<br/>
 
-![image-20220927170937679](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220927170937679.png)
+<img width="937" alt="image" src="https://user-images.githubusercontent.com/103012104/192537990-a1d38af0-8222-4e3a-ba19-752f766d996d.png">
 
 🔵 **Context (Composition)** <br/>
 
@@ -105,7 +105,7 @@
 
 
 
-![image-20220927212238480](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220927212238480.png)
+<img width="677" alt="image" src="https://user-images.githubusercontent.com/103012104/192538065-886b626c-f2a4-4629-8d17-3193174dd112.png">
 
 어떤 문자열이 들어왔을때 조건을 검사해주는 `Validator` 객체가 있음<br/>
 
@@ -117,7 +117,8 @@
 
 ### ‼️ 따라서 전략패턴을 사용해야함!<br/>
 
-![image-20220927213124669](/Users/yuahyeon/Library/Application Support/typora-user-images/image-20220927213124669.png) 전략패턴은 클라이언트 객체는 `Strategy(알고리즘 집합의 인터페이스)`를 가지고  필요에 따라 주입할 수 있음<br/>
+<img width="833" alt="image" src="https://user-images.githubusercontent.com/103012104/192538134-f24cea51-9403-49d7-9d82-7ad29428de45.png">
+전략패턴은 클라이언트 객체는 `Strategy(알고리즘 집합의 인터페이스)`를 가지고  필요에 따라 주입할 수 있음<br/>
 
 또 새로운 요구사항인 아스키 코드를 검사하는 알고리즘을  `Strategy`에 추가함에 따라  `개방페쇄원칙(OCP)`을 지킬 수 있음<br/>
 
