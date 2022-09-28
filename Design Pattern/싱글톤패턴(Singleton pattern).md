@@ -72,5 +72,7 @@ userInfo.name = "brown"
 
 
 
+# 📖 Reference
 
+- [싱글톤 소들이](https://babbab2.tistory.com/66)
 
