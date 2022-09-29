@@ -211,6 +211,10 @@ class로 새로운 동물을 정의하고 Zoo에 또 기존의 코드를 만져�
     
     
 실제로 정사각형은 직사각형이라고 할 수 있습니다. 이 원리에 따라 프로그램을 다음과 같이 설계하게 되면 문제가 생기게 됩니다. 바로 정사각형의 넓이를 출력해야할 때, height = width라는 구문으로 인해 printArea(_: Rectangle)에서 원하는 결과를 얻지 못하게 됩니다.
+
+! 이 예제가 좀 이해가 안되서 다음을 참고하면 더 좋을 것 같다!
+https://github.com/Tedigom/Swift/blob/master/pattern/lsp.md
+
  
 즉, 부모(super class)의 역할을 자식(sub class)에서 대신하지 못하고 있는 상황이 발생하게 된다.
  
@@ -355,7 +359,7 @@ Line, Square 모두 Shape을 상속받는 객체이지만 실제로 Square는 le
 AreaCalculatableShape, LenghtCalculatableShape으로 각각 인터페이스를 세분화시켜 넓이를 구해야하는 Shape에만 AreaCalculatableShape 채택하여 구현하고 길이를 구해야하는 Shape에만 LenghtCalculatableShape 채택하여 각각을 ISP의 원칙을 지키는 프로그램의 설계가 되었습니다.
  
  
-DIP(Dependency Inversion Principle) - 의존관계 역전 원칙
+## DIP(Dependency Inversion Principle) - 의존관계 역전 원칙
 
 : 상위 모듈이 하위 모듈에 의존하면 안되고 두 모듈 모두 추상화에 의존하게 만들어야 한다는 원칙입니다.
  
