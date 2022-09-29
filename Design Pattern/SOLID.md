@@ -87,7 +87,7 @@ SRP(Single Responsibility Principle) - 단일 책임 원칙
 이전과 비교해서 확실히 LoginService는 로그인에 관련된 로직만을 다루는데 각각의 모듈들을 활용해서 로그인에 관한 책임만을 가지고 있다는 것을 알 수 있습니다.
  
  
-OCP(Open-Closed Principle) - 개방, 폐쇄 원칙
+## OCP(Open-Closed Principle) - 개방, 폐쇄 원칙
 
 : 확장에는 열려있으나 변경에는 닫혀있어야 한다는 원칙입니다.
 어떤 기능을 추가할 때, 기존의 코드는 만지지 않고 새로 동작하는 기능에 대해서만 코드가 작성이 되어야합니다. 이러한 원칙을 지키기 위해서는 다양한 방법들이 있을 것 같다고 생각이 듭니다.
@@ -167,7 +167,7 @@ class로 새로운 동물을 정의하고 Zoo에 또 기존의 코드를 만져�
 확장에는 열려있지만 수정에는 닫혀있는 OCP를 지키는 코드가 되는 것이죠.
  
  
-LSP(Liskov Substitution Principle) - 리스코프 치환 원칙
+## LSP(Liskov Substitution Principle) - 리스코프 치환 원칙
 
 : 부모(super class)로 동작하는 곳에서 자식(sub class)를 넣어주어도 대체가 가능해야한다는 원칙입니다.
 자식 클래스를 구현할 때, 기본적으로 부모 클래스의 기능이나 능력들을 물려받는다. 여기서 자식 클래스는 동작을 할 때, 부모 클래스의 기능들을 제한하면 안된다는 뜻입니다.
@@ -254,7 +254,7 @@ LSP(Liskov Substitution Principle) - 리스코프 치환 원칙
 즉, Shape의 역할을 Square, Rectangle 모두가 기존의 룰을 위반하지 않고 동작하는 프로그램이 만들어지게 됩니다. 이러한 상황을 LSP를 지킨 설계라고 하게 됩니다.
  
  
-ISP(Interface Segregation Principle) - 인터페이스 분리 원칙
+## ISP(Interface Segregation Principle) - 인터페이스 분리 원칙
 
 : 인터페이스를 일반화하여 구현하지 않는 인터페이스를 채택하는 것보다 구체적인 인터페이스를 채택하는 것이 더 좋다는 원칙입니다.
  
