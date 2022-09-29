@@ -119,7 +119,7 @@ Combine framework의 Publisher(Observable),Subscriber(Observer)과 Notification 
 ##### 👎단점<br/>
 
 -  관찰 객체(Observer)에게 **알림이 가는 순서를 보장 할 수 없음<br/>**
-- 주체 객체(Object), 관찰 객체(Observer)의 **관계가 잘 정의되지 않으면 원하는 동작이 발생** <br/>
+- 주체 객체(Object), 관찰 객체(Observer)의 **관계가 잘 정의되지 않으면 원하지  동작이 발생** <br/>
 
 <br/>
 
