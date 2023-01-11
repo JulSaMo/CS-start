@@ -1,6 +1,6 @@
 ---
-name: 질문제목을 입력해주세요
-about: 질문있어요
+name: 스터디 scurm을 입력해주세요
+about: scrum
 title: "[SCRUM]"
 labels: 🔖SCRUM
 assignees: ''
