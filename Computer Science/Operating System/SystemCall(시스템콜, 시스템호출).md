@@ -85,12 +85,12 @@ OS는 다양한 서비스 들을 수행하기 위해 하드웨어를 직접적�
   - 메모리 할당 및 해제
 ### 2. 파일 조작 (File Manipulation)
   - 파일 생성 / 삭제 (create, delete)
-  - 열기 / 닫기 / 읽기 / 쓰기 (open, close, read, wirte)
+  - 열기 / 닫기 / 읽기 / 쓰기 (open, close, read, write)
   - 위치 변경 (reposition)
   - 파일 속성 획득 및 설정 (get file attribute, set file attribute)
 ### 3. 장치 관리 (Device Manipulation)
   - 하드웨어의 제어와 상태 정보를 얻음 (ioctl)
-  - 장치를 요구(request device), 장치를 방출 (relese device)
+  - 장치를 요구(request device), 장치를 방출 (release device)
   - 읽기 (read), 쓰기(write), 위치 변경
   - 장치 속성 획득 및 설정
   - 장치의 논리적 부착 및 분리
